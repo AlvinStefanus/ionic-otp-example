@@ -3,10 +3,11 @@ import React, { useEffect, useRef, useState } from 'react'
 import './LoginPage.css'
 
 //Get API TOKEN From https://otp-hub.com/account
-const API_TOKEN = "b79bb24ca4304baa913a06e9583da422";
+const API_TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 const API_URL = "https://otp-hub.com/api/v1/otp";
-//Destination phone number
-const OTP_DESTINATION = "6285317899367";
+
+//Destination phone number started with country code
+const OTP_DESTINATION = "01xxxxxxxx";
 
 export default function LoginPage() {
 
