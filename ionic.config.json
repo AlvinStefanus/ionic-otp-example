@@ -1,0 +1,7 @@
+{
+  "name": "OTP Example",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
