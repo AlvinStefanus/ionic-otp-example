@@ -1,0 +1,26 @@
+.LoginPage {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: larger;
+}
+
+.LoginPage .card {
+  padding: 2rem;
+}
+
+.LoginPage .otp-input {
+  letter-spacing: 10px;
+}
+
+.disabled {
+  opacity: 70;
+  cursor: text;
+}
+
+.active {
+  text-decoration: underline;
+  cursor: pointer;
+}
